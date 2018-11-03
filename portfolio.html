@@ -10,25 +10,23 @@
     
 </head>
 <body>
-        <section class="clearfix">
-                <!--Navigation Bar-->
-                <!--Despite being fairly sure my floats and positioning are correct (must not be though?!?!!!!!) in my CSS my navigation bar still has white space below it that I cannot figure out how to get rid of. My search results ended up finding "display: inline-block" styling that could replace CSS floats, but I know our goal here is to try to make floats work so I'm trying to stick to using the floats and not go off on a tangent.-->
-                    <section id="nav-bar">
-                        <!--teal box for name-->
-                        <h1>Allie Firebaugh</h1>
+    <section class="clearfix">
+        <!--Navigation Bar-->
+            <section id="nav-bar">
+                <!--teal box for name-->
+                <h1>Allie Firebaugh</h1>
                         
-                        <!--links with light grey divider bars-->
+                <!--links with light grey divider bars-->
             
-                        <!--NEED TO PUT IN GREY VERTICAL BARS
-                        NEED TO CONNECT THE REAL LINKS-->
-                        <div class="links">
-                            <a href="about.html" alt="About">About</a>
-                            <a href="portfolio.html" alt="Portfolio">Portfolio</a>
-                            <a href="contact.html" alt="Contact">Contact</a>
-                        </div>
-                        
-                    </section>
-                </section>
+                <!--NEED TO PUT IN GREY VERTICAL BARS
+                NEED TO CONNECT THE REAL LINKS-->
+                <div class="links">
+                    <a href="index.html" alt="About">About</a>
+                    <a href="portfolio.html" alt="Portfolio">Portfolio</a>
+                    <a href="contact.html" alt="Contact">Contact</a>
+                </div>     
+            </section>
+    </section>
 
     <section class="clearfix">
         <section id="main-content">
@@ -37,21 +35,38 @@
                 <hr>
 
                 <div class="clearfix">
-                    <img class="row1" src="assets/images/new_condo_day.jpg" alt="Image1">
-                    <img class="row1" src="assets/images/dad_me_twinning.jpg" alt="Image2">
+                    <div class="container">
+                        <img class="row1" src="assets/images/new_condo_day.jpg" alt="Image1">
+                        <div class="bottom1">New Home</div>
+                    </div>
+
+                    <div class="container">
+                        <img class="row1" src="assets/images/dad_me_twinning.jpg" alt="Image2">
+                        <div class="bottom1">Dad & Me</div>
+                    </div>
                 </div>
             
                 <br><br>
 
                 <div class="clearfix">
-                <img class="row2" src="assets/images/old_rag_hike.jpg" alt="Image3">
-                <img class="row2" src="assets/images/softball_coach.jpg" alt="Image4">
+                    <div class="container">
+                        <img class="row2" src="assets/images/old_rag_hike.jpg" alt="Image3">
+                        <div class="bottom2">Hiking</div>
+                    </div>
+                    <div class="container">
+                        <img class="row2" src="assets/images/softball_coach.jpg" alt="Image4">
+                        <div class="bottom2">Coaching</div>
+                    </div> 
                 </div>
                 
                 <br><br>
 
                 <div class="clearfix">
-                <img class="row3" src="assets/images/sleeping_7_mos.jpg" alt="Image5">
+                    <div class="container">
+                        <img class="row3" src="assets/images/sleeping_7_mos.jpg" alt="Image5">
+                        <div class="bottom3">Pepe</div>
+                    </div>
+                
                 </div>
 
             </div>
