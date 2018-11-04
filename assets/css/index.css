@@ -51,17 +51,22 @@ a:hover {
 }
 
 #main-content {
+    background-image: url('assets/images/upfeathers.png');
     border-top-style: solid;
     border-top-width: 0.5px;
     border-top-color: #666666;
-    background-image: url('assets/images/upfeathers.png');
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     width: 100%;
-    float: left;
+    /* float: left; */
     position: relative;
     padding-bottom: 100px;
     padding-right: 100px;
 }
+
+/*
+Well i just learned my comments all have an extra * (in CSS) ... awkward... I was copying a teacher demo in class though!
+Commenting out my float left did not help my missing background :(
+*/
 
 #white-box {
     background-color: white;
@@ -118,6 +123,10 @@ p {
     text-align: center;
     float: left;
     padding: 20px;
+}
+
+#CP {
+    vertical-align: bottom;
 }
 
 .clearfix::after {

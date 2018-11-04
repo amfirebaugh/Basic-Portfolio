@@ -28,9 +28,10 @@
             <!--NEED TO PUT IN GREY VERTICAL BARS
             NEED TO CONNECT THE REAL LINKS-->
             <div class="links">
-                <a href="index.html" alt="About">About</a>
-                <a href="portfolio.html" alt="Portfolio">Portfolio</a>
-                <a href="contact.html" alt="Contact">Contact</a>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+                <!-- I learned via w3schools and StackOverflow that the alt attritube is not valid in an anchor for html5. Someone on StackOverflow mentioned the title attribute but it wasn't listed on w3schools so I decided to skip putting it in for sake of cleaner code? (idk)-->
             </div>
             
         </section>
@@ -70,7 +71,8 @@
             </div>
             <!--For the dark grey line/box that includes the Copyright centered.-->
             <div id="grey-foot">
-                <p>Copyright &copy;</p>
+                <!-- This id (below) helped me position the Copyright text for this page, but for some reason is not working on the other two pages... :( I'm almost certain that there is CSS overriding the CSS for it because I'm not sure of any other reason it wouldn't work....but I also don't understand why because this footer is in a completely different section than everything else on the page, and this footer is identical on all of the pages. I've also kept the code for my 3 CSS pages organized in the same order to try to avoid this exact problem.-->
+                <p id="CP">Copyright &copy;</p>
             </div>
         </section>
     </section>
