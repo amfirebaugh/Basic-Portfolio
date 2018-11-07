@@ -51,7 +51,7 @@ a:hover {
 }
 
 #main-content {
-    background-image: url('assets/images/upfeathers.png');
+    background-image: url('../images/upfeathers.png');
     border-top-style: solid;
     border-top-width: 0.5px;
     border-top-color: #666666;
@@ -73,7 +73,7 @@ Commenting out my float left did not help my missing background :(
     box-align: center;
     width: 960px;
     margin: auto;
-    padding: 30px, 20px, 20px, 30px;
+    padding: 30px 20px 20px 30px;
 }
 
 h2 {
