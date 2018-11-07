@@ -11,7 +11,6 @@
 
 -Things I would have liked to finish coding/debugging:
 +tiny vertical grey dividers between links
-+my missing background image! I had it for the longest time and all the sudden it disappeared and I don't know whyyyy
 +Copyright positioning on Contact and Portfolio pages
 +alignment of the form boxes and the form text (i.e. prompt/"Name, Email," etc.) on the Contact page
 +not sure about tiny bit of white space above my navbar at the very top of my page....but it's bugging me!

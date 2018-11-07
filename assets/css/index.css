@@ -23,7 +23,7 @@ h1 {
     position: relative;
     margin: 0;
 }
-/** I had a really hard time getting rid of white space in my Navbar area in general, so some code is probably redundant and/or unnecessary. There was a lot of learning going on through this assignment. */
+/* I had a really hard time getting rid of white space in my Navbar area in general, so some code is probably redundant and/or unnecessary. There was a lot of learning going on through this assignment. */
 
 .links {
     font-size: 20px;
@@ -34,7 +34,7 @@ h1 {
     margin-top: 15px;
 }
 
-/** Adding padding-bottom and margin-bottom to my links just adds my white space problem back into the picture... going to try positioning fixes:
+/* Adding padding-bottom and margin-bottom to my links just adds my white space problem back into the picture... going to try positioning fixes:
 I found "vertical-align: middle" and "vertical-align: center" but these didn't help.
 Adding margin-top was what helped me for now, but I have a feeling this wasn't the best fix to my problem...
 */
@@ -62,11 +62,6 @@ a:hover {
     padding-bottom: 100px;
     padding-right: 100px;
 }
-
-/*
-Well i just learned my comments all have an extra * (in CSS) ... awkward... I was copying a teacher demo in class though!
-Commenting out my float left did not help my missing background :(
-*/
 
 #white-box {
     background-color: white;
